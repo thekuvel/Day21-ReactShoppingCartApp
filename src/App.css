@@ -73,3 +73,23 @@ h1 {
 .disable {
   opacity: 50%;
 }
+
+/* Media query */
+
+@media screen and (max-width: 1400px) {
+  .container {
+      grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+      grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      grid-template-columns: 1fr;
+  }
+}
